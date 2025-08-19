@@ -1,5 +1,6 @@
 function hola() {
   alert("Hola!");
+  event.stopPropagation();
 }
 
 function holadiv(){
